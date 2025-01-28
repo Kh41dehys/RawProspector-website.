@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RawProspector</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            color: white;
+            background-color: #007bff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .offerings {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+        .card {
+            background: #f4f4f4;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            width: 250px;
+        }
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>RawProspector</h1>
+        <a href="#" class="button">BOOK NOW</a>
+    </header>
+
+    <section>
+        <h2>Heed the Call of Nature</h2>
+        <p>Leave it all behind and discover Earth's hidden treasures with RawProspector.</p>
+    </section>
+
+    <section>
+        <h2>Our Services</h2>
+        <div class="offerings">
+            <div class="card">
+                <h3>Prospecting Courses</h3>
+                <p>Discover Earth's resources with expert guidance in mineral exploration, mapping, and sampling.</p>
+            </div>
+            <div class="card">
+                <h3>Geologist Survey</h3>
+                <p>Conduct detailed site surveys to identify and evaluate mineral resources with accurate data.</p>
+            </div>
+            <div class="card">
+                <h3>Prospecting Equipment</h3>
+                <p>High-quality tools for mapping, sampling, and resource evaluation to support your exploration needs.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Prospecting Adventures</h2>
+        <p>
+            <strong>Gold Panning Pan-Set Kit:</strong> RM2,500.00<br>
+            Includes 2 pans, magnetic separator, suction nozzle, slot diggers, and more.<br><br>
+            <strong>Highbanker Gold Dredger:</strong> RM3,495.00<br>
+            Pump, mat set, and other essentials included.<br><br>
+            <strong>Dredger with Pump:</strong> RM8,890.00<br>
+            Complete with a built-in pump and full set of equipment.
+        </p>
+    </section>
+
+    <footer>
+        <p>Contact Us:</p>
+        <p>+60 3-7890 1234 | rawprospector@gmail.com</p>
+    </footer>
+</body>
+</html>
